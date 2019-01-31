@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">	
+    <title>Calculate Miles Per Gallon</title>
+    <script>
+		//Get values from user
+        var Length = prompt("Enter Length");
+        Length = parseFloat(Length);
+        var Width = prompt("Enter Width");
+        Width = parseFloat(Width);
+		//Calculation of Area and Perimeter 
+        var Area = parseInt(Length * Width);
+		var Perimeter = parseInt((2 * Length) + ( 2 * Width));
+    </script>
+</head>
+<body>
+    <script>
+		//Display Values and Results
+		document.write("<h1>The Area and Perimeter App</h1>");
+		document.write("Length = " + Length + "<br>" +
+		    "Width = " + Width + "<br><br>" +
+			"Area = " + Area + "<br>" +
+			"Perimeter = " + Perimeter + "<br><br>");
+    </script>
+    Thanks for using the Area and Perimeter application!!!
+</body>
+</html>
